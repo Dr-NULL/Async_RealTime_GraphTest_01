@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Realtime Graph</title>
+
+  <link rel="stylesheet" href="lib/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" href="lib/highcharts/highcharts.css" />
+
+  <style>
+    #graph {
+      width: 100%;
+      height: 512px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- JS Imports -->
+  <script src="lib/bootstrap/jquery.js"></script>
+  <script src="lib/bootstrap/popper.js"></script>
+  <script src="lib/bootstrap/bootstrap.js"></script>
+  <script src="lib/highcharts/highcharts.js"></script>
+  <script src="lib/highcharts/modules/series-label.js"></script>
+  <script src="lib/highcharts/modules/exporting.js"></script>
+  <script src="ajax.js"></script>
+  <script src="main.js"></script>
+</body>
+  <div class="row">
+    <div class="col-5">
+      <div class="form-group">
+        <label>Valor:</label>
+        <input type="text" id="txtValue" class="form-control">
+      </div>
+    </div>
+    <div id="graph"></div>
+  </div>
+</html>
