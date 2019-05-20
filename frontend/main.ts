@@ -72,6 +72,8 @@ let makeChart = () => {
           tickPixelInterval: 1
       },
       yAxis: {
+          min: 0,
+          max: 1024,
           title: {
               text: 'Value'
           },

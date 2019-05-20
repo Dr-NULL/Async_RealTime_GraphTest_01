@@ -6,7 +6,7 @@ import Express from "express"
 import Driver from "/lib/driver"
 import Log from "/lib/log"
 
-let Arduino = new Driver("COM3", 9600)
+let Arduino = new Driver("COM4", 9600)
 let server = Express()
 
 server.post("/get_raw_data", (req, res) => {
