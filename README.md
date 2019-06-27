@@ -1,6 +1,6 @@
 # Async RealTime GraphTest
 
-A real time graph of "Arduino serial port" output. This Project use:
+A real time graph of "Arduino serial port" output (node.js + highcharts). This Project use:
 * An Arduino UNO.
 * Arduino IDE.
 * Typescript.
