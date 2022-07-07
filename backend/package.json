@@ -17,7 +17,7 @@
     "@types/serialport": "^7.0.3",
     "express": "^4.17.0",
     "module-alias": "^2.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "serialport": "^7.1.5"
   }
 }
